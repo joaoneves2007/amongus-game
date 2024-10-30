@@ -83,3 +83,13 @@
     weight: fit-content;
     width: 80%;
   }
+
+  .painel {
+    border: 8px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../svg/frame.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
