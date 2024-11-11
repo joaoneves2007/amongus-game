@@ -63,5 +63,22 @@
              </div>
       </div>
     </div>
+    <script>    
+    const loadButton = document.getElementById("loadButton");
+    const startButton = document.getElementById("StartButton");
+
+    loadButton.addEventListener("click", () => {
+        startReactor.load()
+        startButton.style.display = "none"
+        startButton.style.display = ""
+    })
+
+    startButton.addEventListener("click", () => {
+        startReactor.load()
+        startButton.style.display = "none"
+        startButton.style.display = ""
+    })
+
+  </script>
   </body>
 </html>
